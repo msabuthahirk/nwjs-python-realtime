@@ -1,0 +1,15 @@
+{
+  "name": "nwjs-python-realtime",
+  "version": "1.0.0",
+  "description": "realtime data transfer",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nw src/",
+    "prodwin32": "nwbuild --platforms win32 --buildDir dist/ src/",
+    "prodosx64": "nwbuild --platforms osx64 --buildDir dist/ src/"
+  },
+  "devDependencies": {
+    "nw": "^0.34.0",
+    "nw-builder": "^3.5.4"
+  }
+}
